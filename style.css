@@ -1,0 +1,236 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.header-section{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+.header-left{
+    display: flex;
+    flex-basis: 50%;
+}
+.header-left h1{
+    background-color: rgb(120, 233, 14);
+    height: 40px;
+    width: 45px;
+}
+.header-right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right a{
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.header-right a:hover{
+    border-bottom:1px solid snow;
+}
+
+
+.bg-section{
+    background-image: url(/images/hero-bg.jpg);
+    height:650px;
+    display: flex;
+}
+.bg-left{
+    flex-basis: 50%;
+    display: flex;
+    position: relative;
+    top: 100px;
+    left:100px;
+    flex-direction: column;
+}
+.bg-left h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+.bg-left a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    background-color:black;
+    padding: 10px 20px;
+    width: 140px;
+    position: relative;
+    top: 0;
+    left: 130px;
+}
+.bg-left a:hover{
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+.bg-right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.how-section {
+}
+.how-section h1{
+    text-align: center;
+    font-size: 30px;
+    line-height:90px;
+}
+.how-layout{
+    display: flex;
+}
+.hlayout{
+    margin: 30px;
+    text-align: center;
+    color: rgb(89, 173, 176);
+    background-color: rgb(224, 244, 244);
+}
+.hlayout:hover{
+    color: black;
+}
+.hlayout h2{
+    color: black;
+}
+.hlayout h2:hover{
+    border-bottom: 1px solid black;
+}
+.how-section a{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left:680px;
+    transition: 1s;
+}
+.how-section a:hover{
+    font-size:10px;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section p{
+    text-align:center;
+}
+.about-section h2{
+    font-size: 30px;
+}
+.about-section a{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 7px;transition: 1s;
+    text-decoration: none;
+}
+.about-section a:hover{
+    font-size: 18px;
+}
+
+.our-section{
+    display: flex;
+    background-color: blueviolet;
+}
+.our-left{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our-right{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tes-section h1{
+    text-align: center;
+    font-size: 30px;
+}
+.tes-men{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    left: 400px;
+}
+.tes-men p{
+    text-align: center;
+    margin: 20px;
+}
+.tes-section a{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    position: relative;
+    left: 650px;
+    transition: 1s;
+}
+.tes-section a:hover{
+    font-size: 18px;
+
+
+}
+.foter-section{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+.fo1{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.folo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.folo p{
+    margin: 20px;
+}
+.fo2{
+    flex-basis: 25%;
+}
+.fo2 h1 {
+    text-align: center;
+}
+.fo3{
+    flex-basis: 25%;
+}
+.fo4{
+    flex-basis: 25%;
+}
+.foter-section a{
+    background-color: rgb(4, 183, 129);
+    color: wheat;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 1s;
+    position: relative;
+    top:20px;
+}
+.foter-section a:hover{
+    font-size: 20px;
+}
