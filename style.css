@@ -3,6 +3,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
 }
+/* part 1 */
 .header-section{
     display: flex;
     background-color: black;
@@ -32,8 +33,7 @@ body{
 .header-right a:hover{
     border-bottom:1px solid snow;
 }
-
-
+/* part 2 */
 .bg-section{
     background-image: url(/images/hero-bg.jpg);
     height:650px;
@@ -74,48 +74,89 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
-.how-section {
+/* part 3 */
+.how-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .how-section h1{
     text-align: center;
-    font-size: 30px;
-    line-height:90px;
+    font-size: 40px;
 }
-.how-layout{
+.how-all{
     display: flex;
 }
-.hlayout{
-    margin: 30px;
+.how1{
+    flex-basis: 25%;
+    margin: 10px;
+    height: 300px;
     text-align: center;
-    color: rgb(89, 173, 176);
-    background-color: rgb(224, 244, 244);
+    border: 1px dotted black;
 }
-.hlayout:hover{
-    color: black;
+.how1 h1{
+    font-size: 30px;
 }
-.hlayout h2{
-    color: black;
+.how2{
+    flex-basis: 25%;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+    border: 1px dotted black;
 }
-.hlayout h2:hover{
-    border-bottom: 1px solid black;
+.how2 h1{
+    font-size: 30px;
+}
+.how3{
+    flex-basis: 25%;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+    border: 1px dotted black;
+}
+.how3 h1{
+    font-size: 30px;
+}
+.how4{
+    flex-basis: 25%;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+    border: 1px dotted black;
+}
+.how4 h1{
+    font-size: 30px;
+}
+.img1{
+    background-color: antiquewhite;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1:hover{
+    background-color: rgb(109, 200, 200);
+}
+.img11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
 }
 .how-section a{
     text-decoration: none;
     background-color: black;
     color: aliceblue;
-    padding: 10px 40px;
-    border-radius: 10px;
-    position: relative;
-    top: 0;
-    left:680px;
+    padding: 10px 20px;
+    border-radius: 7px;
     transition: 1s;
 }
 .how-section a:hover{
-    font-size:10px;
+    font-size: 20px;
 }
-
+/* part 4 */
 .about-section{
     display: flex;
     flex-direction: column;
@@ -138,7 +179,7 @@ body{
 .about-section a:hover{
     font-size: 18px;
 }
-
+/* part 5*/
 .our-section{
     display: flex;
     background-color: blueviolet;
@@ -158,6 +199,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* part 6 */
 .tes-section h1{
     text-align: center;
     font-size: 30px;
@@ -189,6 +231,7 @@ body{
 
 
 }
+/* part 7 */
 .foter-section{
     display: flex;
     background-color: black;
